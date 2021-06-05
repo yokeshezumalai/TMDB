@@ -8,7 +8,7 @@
   <br /><br />
  </p>
 
-# TMDB App - Mobile version of content Listing page developed with Kotlin / MVVM / Dependency Injection - Dagger. A simple Android App that displays movies from TMDb
+# TMDB App - Mobile version of content Listing page developed with Kotlin / MVVM / Dependency Injection - Dagger. A simple Android App that displays movies from TMDb with search option.
 
 - Accessed the Open Source TMDB API via RetroFit Network Calls.
 - Used Dagger
@@ -23,6 +23,7 @@
 - API Unit Testing using Mockito.
 - First fragment will display all the movies , and also details of each movies wil be displayed in the next fragment by clicking on that.
 - Accessed the Genre API and saved it in cache - so that for each and every movie , we can access and filter and display the names
+- Also Search Feature added - User can able to search the movies using the search icon in the tool bar, search will be triggered once the user enters 3 characters.
 
 
 
