@@ -24,6 +24,7 @@
 - First fragment will display all the movies , and also details of each movies wil be displayed in the next fragment by clicking on that.
 - Accessed the Genre API and saved it in cache - so that for each and every movie , we can access and filter and display the names
 - Also Search Feature added - User can able to search the movies using the search icon in the tool bar, search will be triggered once the user enters 3 characters.
+- Also it will support both Mobile and Tablets , also Portrait and Landscape mode.
 
 
 
