@@ -18,9 +18,11 @@
 - Live Data
 - Used Data Binding for views
 - Used AppCache - Cached the data of each and every page using HashMap - key Value - Key will contains the page number and value contains the contents - Just to explain cache can be involved and used. I have implemented
-  the cache to avoid the mulitple network calls. But again i just saved in the cache, i didn't use it, since its the one page application. But it can be used.
+  the cache to avoid the mulitple network calls.
 - Used Navigation Graph component.
-- API Unit Testing using Mockito
+- API Unit Testing using Mockito.
+- First fragment will display all the movies , and also details of each movies wil be displayed in the next fragment by clicking on that.
+- Accessed the Genre API and saved it in cache - so that for each and every movie , we can access and filter and display the names
 
 
 
