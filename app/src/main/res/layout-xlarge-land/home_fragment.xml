@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/app_color"
+    tools:context=".features.dashboard.MainActivity">
+
+    <com.tmdb.app.widgets.TMDBTitleBar
+        android:id="@+id/homeTitleBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="6dp"
+        app:extraIconShow="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:titleText="@string/app_name" />
+
+    <com.cooltechworks.views.shimmer.ShimmerRecyclerView
+        android:id="@+id/shimmerRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        app:shimmer_demo_child_count="15"
+        app:shimmer_demo_grid_child_count="5"
+        app:shimmer_demo_shimmer_color="@color/background"
+        app:shimmer_demo_layout="@layout/cell_movies_shimmer"
+        app:shimmer_demo_layout_manager_type="grid"
+        app:shimmer_demo_angle="25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/homeTitleBar" />
+
+    <com.tmdb.app.widgets.TMDBFadingEdgeRecyclerView
+        android:id="@+id/recyclerViewMovies"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:clipToPadding="false"
+        android:scrollbars="none"
+        app:spanCount="5"
+        android:paddingBottom="80dp"
+        android:background="@color/app_color"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/homeTitleBar"
+        android:visibility="gone"
+        tools:visibility="visible"
+        tools:itemCount="8"
+        android:fadingEdge="vertical"
+        android:fadingEdgeLength="30dp"
+        android:fadeScrollbars="true"
+        android:fillViewport="false"
+        android:requiresFadingEdge="vertical"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        tools:listitem="@layout/cell_movie_items"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

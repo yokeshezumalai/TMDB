@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "28004341297",
+    "project_id": "diagnal-6673b",
+    "storage_bucket": "diagnal-6673b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:28004341297:android:36b25a89285afdd5926710",
+        "android_client_info": {
+          "package_name": "com.tmdb.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "28004341297-ao1bsitfpk2eo7ftp856o71rq1cajnbf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIiH1reiS8sfjqov1XQBAAhNhdi3c8azo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "28004341297-ao1bsitfpk2eo7ftp856o71rq1cajnbf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

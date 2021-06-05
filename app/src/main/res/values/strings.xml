@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TMDB</string>
+    <string name="search">Search</string>
+    <string name="back_text">Please click BACK again to exit</string>
+    <string name="general_exception">Sorry for inconvenience, Please try again later</string>
+    <string name="internet_error_title">Internet Error !</string>
+    <string name="internet_error">Please check your internet connection and check our app again, we are happy to welcome you</string>
+    <string name="exit">Exit</string>
+    <string name="language">Original Language</string>
+    <string name="genre">Genre</string>
+    <string name="release_date">Release Data</string>
+    <string name="rating">Rating</string>
+</resources>
