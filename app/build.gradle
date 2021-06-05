@@ -138,7 +138,6 @@ dependencies {
     implementation "com.squareup.okhttp3:logging-interceptor:$okhttpVersion"
 
     // dagger
-    implementation "com.google.dagger:dagger-android:$daggerVersion"
     implementation "com.google.dagger:dagger-android-support:$daggerVersion"
     kapt "com.google.dagger:dagger-compiler:$daggerVersion"
     kapt "com.google.dagger:dagger-android-processor:$daggerVersion"
@@ -147,21 +146,12 @@ dependencies {
     // multi dex
     implementation 'androidx.multidex:multidex:2.0.1'
 
-    // check app is rooting
-    implementation 'com.scottyab:rootbeer-lib:0.0.7'
-
     // cookies
     implementation 'com.github.franmontiel:PersistentCookieJar:v1.0.1'
-
-    // loading
-    implementation 'com.tubitv.ui:tubi-loading-view:0.0.4@aar'
 
     // glide
     implementation "com.github.bumptech.glide:glide:$glideVersion"
     kapt "com.github.bumptech.glide:compiler:$glideVersion"
-
-    // event bus
-    implementation 'org.greenrobot:eventbus:3.1.1'
 
     // Logger
     implementation 'com.orhanobut:logger:2.2.0'

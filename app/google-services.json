@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "28004341297",
-    "project_id": "diagnal-6673b",
-    "storage_bucket": "diagnal-6673b.appspot.com"
+    "project_number": "1007758701478",
+    "project_id": "tmdb-f5acd",
+    "storage_bucket": "tmdb-f5acd.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:28004341297:android:36b25a89285afdd5926710",
+        "mobilesdk_app_id": "1:1007758701478:android:f6033342f84e644c6bd567",
         "android_client_info": {
           "package_name": "com.tmdb.app"
         }
       },
       "oauth_client": [
         {
-          "client_id": "28004341297-ao1bsitfpk2eo7ftp856o71rq1cajnbf.apps.googleusercontent.com",
+          "client_id": "1007758701478-dungrqhsh3t57d8evobqm5fp4s2pf97t.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCIiH1reiS8sfjqov1XQBAAhNhdi3c8azo"
+          "current_key": "AIzaSyAYWjLZXz9mhH8lJq5I9RR5WYHBnZCDEHY"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "28004341297-ao1bsitfpk2eo7ftp856o71rq1cajnbf.apps.googleusercontent.com",
+              "client_id": "1007758701478-dungrqhsh3t57d8evobqm5fp4s2pf97t.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

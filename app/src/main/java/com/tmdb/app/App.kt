@@ -9,7 +9,6 @@ import com.orhanobut.logger.PrettyFormatStrategy
 import com.treebo.internetavailabilitychecker.InternetAvailabilityChecker
 import dagger.android.DispatchingAndroidInjector
 import dagger.android.HasAndroidInjector
-import org.greenrobot.eventbus.EventBus
 import javax.inject.Inject
 
 class App : MultiDexApplication(), HasAndroidInjector {
@@ -24,8 +23,6 @@ class App : MultiDexApplication(), HasAndroidInjector {
 
         initializeDagger()
         InternetAvailabilityChecker.init(this);
-
-        eventBus = EventBus.getDefault()
 
         val formatStrategy = PrettyFormatStrategy.newBuilder()
             .showThreadInfo(false)  // (Optional) Whether to show thread info or not. Default true
@@ -44,7 +41,6 @@ class App : MultiDexApplication(), HasAndroidInjector {
 
     companion object {
         lateinit var appComponent: AppComponent
-        lateinit var eventBus: EventBus
     }
 
 }
