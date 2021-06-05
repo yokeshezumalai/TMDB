@@ -8,16 +8,18 @@
   <br /><br />
  </p>
 
-# TMDB App - Mobile version of content Listing page developed with Kotlin / MVVM / Dependency Injection - Dagger.
+# TMDB App - Mobile version of content Listing page developed with Kotlin / MVVM / Dependency Injection - Dagger. A simple Android App that displays movies from TMDb
 
 - Accessed the Open Source TMDB API via RetroFit Network Calls.
 - Used Dagger
 - Created NetworkModule and implemented OkHttpClient inside that.
 - Created a CustomOkHttpInterceptor - We can add a common header for all the API's here
 - Used MVVM - Model View View Model - Fragment - ViewModel - Repo - API
+- Live Data
+- Used Data Binding for views
 - Used AppCache - Cached the data of each and every page using HashMap - key Value - Key will contains the page number and value contains the contents - Just to explain cache can be involved and used. I have implemented
   the cache to avoid the mulitple network calls. But again i just saved in the cache, i didn't use it, since its the one page application. But it can be used.
-- Used NavGraph component.
+- Used Navigation Graph component.
 - API Unit Testing using Mockito
 
 
